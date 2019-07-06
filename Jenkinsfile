@@ -32,21 +32,3 @@ pipeline
     }
 }
 
-//Script
-
-node 
-{
-    stage('Build')
-    {
-        echo 'Building ...'
-    }
-    stage('Build')
-    {
-        echo 'Buidling ...'
-    }
-    stage('Deploy')
-    {
-        echo 'Deploying ...'
-    }
-}
-
